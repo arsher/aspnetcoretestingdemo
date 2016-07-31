@@ -7,8 +7,8 @@
 
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>ed2f1abe-66b2-4318-8792-5646f32500e5</ProjectGuid>
-    <RootNamespace>ConsoleApp</RootNamespace>
+    <ProjectGuid>097704ab-7099-463a-a303-541f17b39411</ProjectGuid>
+    <RootNamespace>DSerfozo.AspNetCore.TestingDemoLib</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>

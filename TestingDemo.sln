@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A1652BF7-AC8B-43ED-A1AC-BC7D00423F54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0091DF59-42A9-414A-8FDB-B9B3CFB13761}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DSerfozo.AspNetCore.TestingDemo", "src\DSerfozo.AspNetCore.TestingDemo\DSerfozo.AspNetCore.TestingDemo.xproj", "{ED2F1ABE-66B2-4318-8792-5646F32500E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C9B4F4AC-32FC-4CD6-A704-B7634FD1CE96}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DSerfozo.AspNetCore.TestingDemoLib", "src\DSerfozo.AspNetCore.TestingDemoLib\DSerfozo.AspNetCore.TestingDemoLib.xproj", "{097704AB-7099-463A-A303-541F17B39411}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DSerfozo.AspNetCore.TestingDemoLib.Test", "test\DSerfozo.AspNetCore.TestingDemoLib.Test\DSerfozo.AspNetCore.TestingDemoLib.Test.xproj", "{203F9776-8277-43EE-AB33-03008F5D318A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DSerfozo.AspNetCore.TestingDemoLib.Integration", "test\DSerfozo.AspNetCore.TestingDemoLib.Integration\DSerfozo.AspNetCore.TestingDemoLib.Integration.xproj", "{7BD3E66E-19E7-4BC6-8958-E82E22F29A09}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DSerfozo.AspNetCore.Mvc.Test", "test\DSerfozo.AspNetCore.Mvc.Test\DSerfozo.AspNetCore.Mvc.Test.xproj", "{6C52B356-A884-4514-BDFD-0A3D55B3A070}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED2F1ABE-66B2-4318-8792-5646F32500E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED2F1ABE-66B2-4318-8792-5646F32500E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED2F1ABE-66B2-4318-8792-5646F32500E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED2F1ABE-66B2-4318-8792-5646F32500E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{097704AB-7099-463A-A303-541F17B39411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{097704AB-7099-463A-A303-541F17B39411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{097704AB-7099-463A-A303-541F17B39411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{097704AB-7099-463A-A303-541F17B39411}.Release|Any CPU.Build.0 = Release|Any CPU
+		{203F9776-8277-43EE-AB33-03008F5D318A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{203F9776-8277-43EE-AB33-03008F5D318A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{203F9776-8277-43EE-AB33-03008F5D318A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{203F9776-8277-43EE-AB33-03008F5D318A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD3E66E-19E7-4BC6-8958-E82E22F29A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD3E66E-19E7-4BC6-8958-E82E22F29A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD3E66E-19E7-4BC6-8958-E82E22F29A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD3E66E-19E7-4BC6-8958-E82E22F29A09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C52B356-A884-4514-BDFD-0A3D55B3A070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C52B356-A884-4514-BDFD-0A3D55B3A070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C52B356-A884-4514-BDFD-0A3D55B3A070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C52B356-A884-4514-BDFD-0A3D55B3A070}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED2F1ABE-66B2-4318-8792-5646F32500E5} = {A1652BF7-AC8B-43ED-A1AC-BC7D00423F54}
+		{097704AB-7099-463A-A303-541F17B39411} = {A1652BF7-AC8B-43ED-A1AC-BC7D00423F54}
+		{203F9776-8277-43EE-AB33-03008F5D318A} = {C9B4F4AC-32FC-4CD6-A704-B7634FD1CE96}
+		{7BD3E66E-19E7-4BC6-8958-E82E22F29A09} = {C9B4F4AC-32FC-4CD6-A704-B7634FD1CE96}
+		{6C52B356-A884-4514-BDFD-0A3D55B3A070} = {C9B4F4AC-32FC-4CD6-A704-B7634FD1CE96}
+	EndGlobalSection
+EndGlobal
